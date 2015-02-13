@@ -1,0 +1,20 @@
+{
+  "name": "Deployd Sample",
+  "description": "Deployd the simplest way to build and manage an api.",
+  "repository": "https://github.com/NicolasRitouet/deployd-heroku-demo",
+  "logo": "http://deployd.com/img/logo.png",
+  "keywords": ["node", "deployd", "api"],
+  "addons": [
+        "mongolab"
+  ],
+  "env": {
+    "NODE_ENV": {
+      "description": "Configures Deployd for production",
+      "value": "production"
+    },
+    "DPD_KEY": {
+      "description": "Secret key to access the dashboard",
+      "generator": "secret"
+    }
+  }
+}
