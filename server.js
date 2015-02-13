@@ -15,6 +15,9 @@ app.get('/hello-express', function (req, res) {
   res.send('Hello Deployd!');
 });
 
+// heroku requires these settings for sockets to work
+server.sockets.manager.settings.transports = ["xhr-polling"];
+
 // setup deployd
 require('deployd').attach(server, {
   env: nodeEnv,
