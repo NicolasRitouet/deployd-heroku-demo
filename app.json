@@ -16,5 +16,6 @@
       "description": "Secret key to access the dashboard",
       "value": "MODIFY_ME !!"
     }
-  }
+  },
+  "postdeploy": "mkdir .dpd && echo "{\"${DPD_KEY}\"}" >> .dpd/keys.json"
 }
