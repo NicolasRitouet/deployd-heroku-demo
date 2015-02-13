@@ -10,7 +10,7 @@
   "env": {
     "NODE_ENV": {
       "description": "Configures Deployd for production",
-      "value": "production"
+      "value": "development"
     },
     "DPD_KEY": {
       "description": "Secret key to access the dashboard",
