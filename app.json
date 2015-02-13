@@ -17,5 +17,5 @@
       "value": "MODIFY_ME !!"
     }
   },
-  "postdeploy": "mkdir .dpd && echo '{\"${DPD_KEY}\"}' >> .dpd/keys.json"
+  "postdeploy": "mkdir .dpd && echo '{\"'${DPD_KEY}'\"}' >> .dpd/keys.json"
 }
