@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/NicolasRitouet/deployd-heroku-demo",
   "dependencies": {
-    "deployd": "git://github.com/deployd/deployd.git#v0.8.0-rc.2",
+    "deployd": "git://github.com/deployd/deployd.git#v0.8.0-rc.3",
     "express": "^4.11.1"
   }
 }
