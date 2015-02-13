@@ -14,7 +14,7 @@
     },
     "DPD_KEY": {
       "description": "Secret key to access the dashboard",
-      "generator": "secret"
+      "value": "MODIFY_ME !!"
     }
   }
 }
